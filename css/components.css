@@ -10,11 +10,13 @@ ul {
   background-color: #056D7D;
   font-family: "Trebuchet MS", sans-serif;
   box-sizing: 20px;
+  margin-top: 20px;
 }
 
 li {
   float: left;
-  white-space: nowrap
+  white-space: nowrap;
+  
 }
 
 body{

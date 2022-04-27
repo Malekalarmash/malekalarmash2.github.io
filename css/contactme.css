@@ -1,0 +1,27 @@
+html, body{
+height: 100%
+
+}
+.quickinput {
+  margin: 0 2em 2em 0;
+  display: inline-block;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.quicklabel {
+  margin: 0 2em 0 0;
+  display: block;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.quicktextarea {
+  margin: 0 2em 2em 0;
+  width: calc(100% - 4em - 2px);
+  height: 5em;
+  display: block;
+  padding: 1em;
+}
+
+.quickinput-right {
+  float: right;
+}
