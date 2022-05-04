@@ -46,40 +46,19 @@ li a:hover {
   background-color: white;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.card {
-  align-items: stretch;
-  display: grid;
-  align-items: flex-start;
-  gap: 0 20px;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
-  grid-auto-rows: 100px;
-  grid-template-areas:
-   " a a a a a "
-   " b b b b b ";
 }
 
 .card .card-item {
   position: relative;
 }
 
-.card .card-item-row2{
-  margin-top: 300px;
-  grid-area: b;
-}
-
-.card img {
+.card-item img {
   height: 350px;
   width: 300px;
   transition: 0.4s ease-in-out all;
 }
 
-.card .card-details {
+.card-item .card-details {
   position: absolute;
   padding: 10px 5px;
   bottom: 0px;
