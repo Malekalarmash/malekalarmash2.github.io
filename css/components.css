@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    width: 100%
+
 }
 
 ul {
@@ -28,6 +28,19 @@ li a {
   text-decoration: none;
   font-family: "Trebuchet MS", sans-serif;
 }
+a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", sans-serif;
+}
+a:hover {
+  background-color: #F89224;
+  block-size: relative;
+  transition: all 2s cubic-bezier(0,1.49,.83,.67);
+}
 
 li a:hover {
   background-color: #F89224;
@@ -42,6 +55,7 @@ li a:hover {
   background-size: cover;
   position: relative;
   margin-top: 5%;
+  padding: 5%;
 }
 
 .hero-text {
@@ -60,7 +74,7 @@ li a:hover {
   background-color: #F89224;
   transition: all 2s cubic-bezier(0,1.49,.83,.67);
 }
-.container{
+.container-aboutme{
   position: relative;
   padding: 25px 50px;
   width: 50%;
@@ -83,4 +97,64 @@ footer {
   margin-top: 20%;
   background: #056D7D;
   color: white;
+  width: 100%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-github{
+  background: black;
+  color: white;
+
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.container-socialmedia{
+  position: center;
+  width: 50%;
+  margin-bottom: 0%;
+  align: left;
+  font-family: "Trebuchet MS", sans-serif;
+  margin-left: 5%;
+}
+.container-aboutme{
+  position: center;
+  width: 50%;
+  margin-bottom: 5%;
+  align: left;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.container-aboutme h2{
+  font-family: "Trebuchet MS", sans-serif;
+
+
+
+}
+
+.container-aboutme-text p{
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 15px;
+
+
 }

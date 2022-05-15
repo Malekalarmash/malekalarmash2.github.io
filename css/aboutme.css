@@ -4,107 +4,22 @@ body, html {
     padding: 0;
     margin: 0;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #056D7D;
-  font-family: "Trebuchet MS", sans-serif;
-  box-sizing: 20px;
-  margin-top: 20px;
-}
-
-li {
-  float: left;
-  white-space: nowrap;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: "Trebuchet MS", sans-serif;
-}
-
-h1{
-  text-align: center;
-  margin-top: 100px;
-  padding: 20px;
-}
-
-li a:hover {
-  background-color: #F89224;
-}
-
-.container {
-  height: 100vh;
-  width: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-}
-
-.card .card-item {
+.hero-image-aboutme {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/aboutme.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
+  margin-top: 5%;
 }
+.container-aboutme-text a{
+  margin: auto;
+}
+.skills-container {
+  margin: auto;
+}
+ol{
+  white-space: nowrap;
 
-.card-item img {
-  height: 350px;
-  width: 300px;
-  transition: 0.4s ease-in-out all;
-}
-
-.card-item .card-details {
-  position: absolute;
-  padding: 10px 5px;
-  bottom: 0px;
-  opacity: 0;
-  transition: 0.4s ease-in-out all;
-}
-
-.card-details h1 {
-  font-size: 18px;
-  margin: 2px 0;
-  background-color: #056D7D;
-  opacity: 0.90;
-  padding: 10px;
-  font-family: "Trebuchet MS", sans-serif;
-  color: white;
-}
-.card-details p {
-  font-size: 14px;
-  color: white;
-  background-color: #F89224;
-  padding: 10px;
-  font-family: "Trebuchet MS", sans-serif;
-}
-
-.card-item:hover .card-details {
-  opacity: 1;
-  bottom: 10px;
-}
-
-.card-item-row2:hover .card-details {
-  opacity: 1;
-  bottom: 10px;
-}
-
-.card-item:hover img {
-  transform: scale(1.05);
-}
-
-.card-item-row2:hover img {
-  transform: scale(1.05);
-}
-
-@media(max-width:600px){
-  .card {
-  grid-template-columns: 1fr;  gap: 0 20px;
-}
-  .container {
-    height: 210vh;}
 }
