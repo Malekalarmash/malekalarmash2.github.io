@@ -1,5 +1,5 @@
 body, html {
-    height: 70%;
+    height: 100%;
     width: 100%
 }
 
@@ -31,71 +31,56 @@ li a {
 
 li a:hover {
   background-color: #F89224;
+  transition: all 2s cubic-bezier(0,1.49,.83,.67);
 }
 
-h1{
-  margin-top: -17px;
-  font-family: "Trebuchet MS", sans-serif;
-  font-size: 2em;
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/Personalall.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 5%;
 }
-.heading1{
-  font-family: "Trebuchet MS", sans-serif;
-  font-size: 2em;
+
+.hero-text {
   text-align: center;
-}
-
-.paragraph-container{
-  padding: 10px;
-  margin: auto;
-
-
-}
-
-a.button {
-  margin-top: 10px;
-  font-size:  1.3em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   font-family: "Trebuchet MS", sans-serif;
-}
-
-.button{
-  display: inline-block;
-  width: 200px;
-  font-weight: bold;
-  padding: 10px;
+  box-sizing: 20px;
   color: white;
-  border: 4px solid #ffff;
+  box-sizing: 20px;
+
+}
+.hero-text :hover {
+  background-color: #F89224;
+  transition: all 2s cubic-bezier(0,1.49,.83,.67);
+}
+.container{
+  position: relative;
+  padding: 25px 50px;
+  width: 50%;
+  margin: auto;
+  align: center;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.card1 {
   text-align: center;
-  outline-color: none;
-  text-decoration: none;
-  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  margin-top: 5em;
+}
+.card1 img{
+  width: 25%;
+  margin: auto;
+  position: relative;
 }
 
-@@media only screen and (max-width: 920px);{
-  .inner-container{
-    margin-top: 100px;
-  }
-}
-
-@@media only screen and(max-width: 540px) {
-  .inner-container{
-      margin-top: 150px;
-  }
-  h1{
-      font-size: 5em;
-  }
-  h2{
-      font-size: 1.4em;
-  }
-}
-
-.slider-container{
-  align-items: flex;
-  vertical-align: middle;
-  size: 20%;
-}
-
-.mySlides {
-  display:none;
-  height: 300px;
-  width: 100%;
+footer {
+  padding: 10px 20px;
+  margin-top: 20%;
+  background: #056D7D;
+  color: white;
 }
