@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    width: 100%
 
 }
 
@@ -87,7 +88,7 @@ li a:hover {
   margin-top: 5em;
 }
 .card1 img{
-  width: 25%;
+  width: 30%;
   margin: auto;
   position: relative;
 }
@@ -157,4 +158,92 @@ footer {
   font-size: 15px;
 
 
+}
+
+.header-container {
+  margin: center;
+}
+.links-header-container ul{
+
+}
+.links-header-container a{
+  margin: center;
+}
+
+
+.container {
+ grid-gap: 1rem;
+ height: 100%;
+}
+.card {
+ display: grid;
+ height: 100%;
+ margin-left: 25%;
+ grid-template-columns: 300px 300px 300px;
+ grid-template-rows: 500px 500px;
+}
+
+.card .card-item1 {
+  position: relative;
+  margin: auto;
+}
+.card .card-item2 {
+  position: relative;
+  margin: auto;
+}
+.card .card-item3 {
+  position: relative;
+  margin: auto;
+}
+.card img {
+  height: 250px;
+  width: 250px;
+  transition: 0.4s ease-in-out all;
+}
+
+.card .card-details {
+  position: absolute;
+  padding: 10px 5px;
+  bottom: 0px;
+  opacity: 0;
+  transition: 0.4s ease-in-out all;
+}
+
+.card-details h1 {
+  font-size: 18px;
+  margin: 2px 0;
+  color: white;
+}
+.card-details p {
+  font-size: 14px;
+}
+.card-item1:hover .card-details {
+  opacity: 1;
+  bottom: 10px;
+}
+
+.card-item1:hover img {
+  transform: scale(1.05);
+}
+.card-item2:hover .card-details {
+  opacity: 1;
+  bottom: 10px;
+}
+
+.card-item2:hover img {
+  transform: scale(1.05);
+}
+
+.card-item3:hover .card-details {
+  opacity: 1;
+  bottom: 10px;
+}
+
+.card-item3:hover img {
+  transform: scale(1.05);
+}
+
+@media(max-width:600px){
+  .card {
+  grid-template-columns: 1fr;  gap: 0 10px;
 }
