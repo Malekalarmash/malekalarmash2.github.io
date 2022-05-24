@@ -1,5 +1,5 @@
 import React from 'react';
-const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const main-bar = document.querySelector('.main-bar-list .hero-image .hero-text .container-webdevolperb');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const main_bar_list = document.querySelector('.main-bar-list .hero-image');
