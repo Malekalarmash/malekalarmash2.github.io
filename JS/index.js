@@ -78,6 +78,7 @@ var myTween;
 function onMouseMove(event) {
   if(myTween)
     myTween.kill();
+				//hel
 
   mouseX = ( event.clientX / window.innerWidth ) * 2 - 1;
   mouseY = - ( event.clientY / window.innerHeight ) * 2 + 1;
